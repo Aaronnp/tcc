@@ -1,0 +1,44 @@
+.cards{
+    display: flex;
+    border-radius: 10px;
+    margin: 4;
+    justify-content: flex-start;
+
+}
+
+.cards > a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 15px;
+    font-family: 'Helvetica';
+    overflow: hidden;
+    
+}
+.cards > a > label{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards > a > .texto{
+    font-size: 12px;
+    font-weight: normal;
+    color: grey;
+    padding: 0px 0 10px 10px;
+
+
+
+}
+.cards > a > .thumb{
+    padding: 10px;
+}
+
+.cards > a > .preco{
+    padding: 10px;
+}
+

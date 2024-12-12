@@ -1,0 +1,368 @@
+nav{
+    color:rgb(136, 255, 0);
+    font-family: Comic Sans MS;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: gray;
+    font-size: 20px;
+    border-bottom: 5px solid  whitesmoke;
+    align-items: center;
+    
+}
+body{
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    
+    
+}
+
+nav > div{
+    display: flex;
+    gap: 20px;
+}
+
+.robux > a, .cards > a{
+    color: gray;
+    height: 50px;
+    background-color:wheat;
+    border-radius: 8px;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+.robux > a:hover, .cards > a:hover{
+    
+    background-color: whitesmoke;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 10px 17px
+}
+nav > a > img{
+    height: 75px;
+}
+main{
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+nav > input{
+    height: 20px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cards{
+    display: flex;
+    border-radius: 10px;
+    margin: 4;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards > a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    background-color: wheat;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 15px;
+    font-family: 'Helvetica';
+    overflow: hidden;
+    height: 320px;
+    width: 300px;
+
+    
+}
+.cards > a > label{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards > a > .thumb{
+    
+    padding: 10px;
+}
+
+.cards > a > .preco{
+    padding: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards > a > img{
+    width: 260px;
+    height: 260px;
+}
+
+.imagem{
+    height: 240px;
+    width: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#i1{
+    background-image: url('images__1_-removebg-preview.png');
+    background-size: 80%;
+}
+
+#i2{
+    background-image: url('Mavic_Pro_DJI_Unmanned_Aerial_Vehicle_Quadcopter_Parrot_AR_Drone_PNG_-_Free_Download-removebg-preview.png');
+    background-size: 100%;
+}
+
+#i3{
+    background-image: url('png-clipart-platform-bed-bed-frame-headboard-bed-size-queen-bed-angle-mattress-removebg-preview.png');
+    background-size: 100%;
+}
+
+#i4{
+    background-image: url('images__2_-removebg-preview.png');
+    background-size: 100%;
+}
+
+#i5{
+    background-image: url('images__3_-removebg-preview.png');
+    background-size: 100%;
+}
+
+#i6{
+    background-image: url('images__4_-removebg-preview.png');
+    background-size: 100%;
+}
+
+#e1{
+    background-image: url('images__1_-removebg-preview.png');
+    background-size: 80%;
+}
+
+#e2{
+    background-image: url('Mavic_Pro_DJI_Unmanned_Aerial_Vehicle_Quadcopter_Parrot_AR_Drone_PNG_-_Free_Download-removebg-preview.png');
+    background-size: 100%;
+}
+
+#e3{
+    background-image: url('png-clipart-platform-bed-bed-frame-headboard-bed-size-queen-bed-angle-mattress-removebg-preview.png');
+    background-size: 100%;
+}
+
+#e4{
+    background-image: url('images__2_-removebg-preview.png');
+    background-size: 100%;
+}
+
+#e5{
+    background-image: url('images__3_-removebg-preview.png');
+    background-size: 100%;
+}
+
+#e6{
+    background-image: url('images__4_-removebg-preview.png');
+    background-size: 100%;
+}
+
+#e7{
+    background-image: url('images__5_-removebg-preview.png');
+    background-size: 100%;
+}
+
+#e8{
+    background-image: url('racao-para-cachorro-onix-original-caes-filhotes-www-hazielpet-com-br1-7e22f23456bb05f81216756214571026-640-0-removebg-preview.png');
+    background-size: 100%;
+}
+
+#e9{
+    background-image: url('png-transparent-gopro-hero5-black-action-camera-4k-resolution-gopro-electronics-camera-lens-photography-thumbnail-removebg-preview.png');
+    background-size: 100%;
+}
+
+.kakaka{
+    display: flex;
+    justify-content: center;
+}
+
+#f1{
+    background-image: url('images__1_-removebg-preview.png');
+    background-size: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    border-radius: 8px;
+    height: 400px;
+    width: 350px;
+    transition: 0.3s;
+    margin: 25px;
+
+
+}
+
+#f1:hover{
+        
+    background-color: whitesmoke;
+    text-decoration: underline;
+    
+}
+#f1 > .thumb{
+    display: flex;
+    font-family: Helvetica;
+    color:black;
+    font-weight: bold;
+    align-items: center;
+    
+}
+
+#f1 > .preco{
+    display: flex;
+    font-family: Helvetica;
+    color:black;
+    font-weight: bold;
+    align-items: center;
+}
+
+.bdc{
+    background-color: green;
+    border-radius: 7px;
+    width: 120px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.bdc > .c{
+    display: flex;
+    color: white;
+    font-weight: bold ;
+    font-family: Helvetica;
+
+}
+
+.skibii{
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+.dsclp{
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+.skibii{
+    background-color: none;
+    border: none;
+    margin-left: 500px;
+}
+
+.cool, textarea{
+    background-color: #242222ac;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+
+}
+
+.cool{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    margin: 7px 0 ;
+}
+
+.uncool{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scool{
+    height: 35px;
+    width: 209px;
+    background-color: wheat;
+    color: rgb(32, 32, 32);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.scool:hover{
+    background-color: azure;
+}
+
+
+
+@media(max-width: 800px){
+    div > a{
+        height: 50px;
+        justify-content: center;
+
+    }
+    nav{
+        flex-direction: column;
+        
+    }
+    nav > img{
+        height: 75px;
+        width: 300px;
+        display: flex;
+        
+    }
+
+}
+
+@media(max-width: 500px){
+    nav > input{
+        display: none;
+    }
+
+    nav > img{
+        height: 75px;
+        width: 250px;
+    }
+    div > a{
+        height: 30px;
+        width: 70px;
+        justify-content: center;
+    }
+    nav{
+        padding: 5px;
+    }
+
+
+}

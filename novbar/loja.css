@@ -1,0 +1,230 @@
+nav{
+    color:rgb(136, 255, 0);
+    font-family: Comic Sans MS;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: gray;
+    font-size: 20px;
+    border-bottom: 5px solid  whitesmoke;
+    align-items: center;
+    
+}
+body{
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    
+    
+}
+
+nav > div{
+    display: flex;
+    gap: 20px;
+}
+
+div > a{
+    color: gray;
+    height: 50px;
+    background-color:wheat;
+    border-radius: 8px;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+div > a:hover{
+    
+    background-color: whitesmoke;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 10px 17px
+}
+nav > a > img{
+    height: 75px;
+}
+main{
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+nav > input{
+    height: 20px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cards{
+    display: flex;
+    border-radius: 10px;
+    margin: 4;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards > a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    background-color: wheat;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 15px;
+    font-family: 'Helvetica';
+    overflow: hidden;
+    height: 320px;
+    width: 300px;
+
+    
+}
+.cards > a > label{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards > a > .thumb{
+    
+    padding: 10px;
+}
+
+.cards > a > .preco{
+    padding: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards > a > img{
+    width: 260px;
+    height: 260px;
+}
+
+.imagem{
+    height: 240px;
+    width: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#i1{
+    background-image: url('images__1_-removebg-preview.png');
+    background-size: 80%;
+}
+
+#i2{
+    background-image: url('Mavic_Pro_DJI_Unmanned_Aerial_Vehicle_Quadcopter_Parrot_AR_Drone_PNG_-_Free_Download-removebg-preview.png');
+    background-size: 100%;
+}
+
+#i3{
+    background-image: url('png-clipart-platform-bed-bed-frame-headboard-bed-size-queen-bed-angle-mattress-removebg-preview.png');
+    background-size: 100%;
+}
+
+#i4{
+    background-image: url('images__2_-removebg-preview.png');
+    background-size: 100%;
+}
+
+#i5{
+    background-image: url('images__3_-removebg-preview.png');
+    background-size: 100%;
+}
+
+#i6{
+    background-image: url('images__4_-removebg-preview.png');
+    background-size: 100%;
+}
+
+#i7{
+    background-image: url('images__5_-removebg-preview.png');
+    background-size: 100%;
+}
+
+#i8{
+    background-image: url('racao-para-cachorro-onix-original-caes-filhotes-www-hazielpet-com-br1-7e22f23456bb05f81216756214571026-640-0-removebg-preview.png');
+    background-size: 100%;
+}
+
+#i9{
+    background-image: url('png-transparent-gopro-hero5-black-action-camera-4k-resolution-gopro-electronics-camera-lens-photography-thumbnail-removebg-preview.png');
+    background-size: 100%;
+}
+
+.kakaka{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media(max-width: 800px){
+    div > a{
+        height: 50px;
+        justify-content: center;
+
+    }
+    nav{
+        flex-direction: column;
+        
+    }
+    nav > img{
+        height: 75px;
+        width: 300px;
+        display: flex;
+        
+    }
+
+}
+
+@media(max-width: 500px){
+    nav > input{
+        display: none;
+    }
+
+    nav > img{
+        height: 75px;
+        width: 250px;
+    }
+    div > a{
+        height: 30px;
+        width: 70px;
+        justify-content: center;
+    }
+    nav{
+        padding: 5px;
+    }
+
+
+}
+
+/* 
+            <a href="">
+                <div class="imagem" id="i7"></div>
+                <label class="thumb">Ração 10Kg (Gato)</label>
+                <label class="preco">R$ 100,00 </label>
+            </a>
+
+            <a href="">
+                <div class="imagem" id="i8"></div>
+                <label class="thumb">Ração 10Kg (Cachorro)</label>
+                <label class="preco">R$ 99,99 </label>
+            </a>
+            
+            <a href="">
+                <div class="imagem" id="i9"></div>
+                <label class="thumb">Gopro</label>
+                <label class="preco">R$ 499,99 </label> */
+
+
